@@ -13,6 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.65);
+  
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -77,6 +78,24 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   box-shadow: none;
   border: 1px solid #f75757;
 }
+
+
+
+/* Utility Classes */
+
+.align-center{
+  align-items: center;
+}
+
+.Dark-color{
+  background-color: #100F21;
+}
+
+.Golden-color{
+  color: #fbe375
+}
+
+
 
 .py-7 {
   padding: 7rem 0px;
@@ -434,6 +453,7 @@ a:focus {
 
 .defi-font {
   color: #fbe375;
+  font-weight: 400 !important;
   font-family: Lora !important; 
  
 }
@@ -443,7 +463,7 @@ a:focus {
   font-weight: 500;
   color: #fbe375;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: .5px;
   transition: all .25s ease;
 }
@@ -1294,6 +1314,20 @@ h3.quote::before {
   letter-spacing: 1px;
 }
 
+.flex-wrap1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.flex-wrap1 .wrapper{
+  margin: 0 50px;
+}
+
+
+
 .logo span {
   color: #f75757;
 }
@@ -1671,3 +1705,23 @@ h3.quote::before {
  
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+/* ------------Footer------------- */
+
+.flex-wrap-2 {
+  display: flex;
+  justify-content: space-around;
+  
+  padding: 20px;
+  text-align: center ;
+
+}
+
+.flex-wrap-2 .item3 img{
+  vertical-align: center;
+}
+
+.flex-wrap-2 .item1 ul li {
+  color: white;
+}

@@ -115,15 +115,42 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   color: #fff;
 }
 
-.btn-solid-border {
-  border: 2px solid #f75757;
-  background: transparent;
-  color: #242424;
+.defi-kingdoms-logo{
+  background-position: left;
+  margin-left: -70px
 }
 
-.btn-solid-border:hover {
-  border: 2px solid #f75757;
-  background: #f75757;
+.btn-primary {
+
+  color: #100F21;
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #63F043 0%, #14c25a 51%, #63F043 100%);
+  background-position: left center;
+  
+}
+
+.btn-primary:hover{
+  color: #100F21;
+    background-position: right center;
+}
+
+.btn:hover{
+  top: -5px
+}
+
+.btn {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 0px;
+    min-width: 100px;
+    text-align: center;
+    position: relative;
+    top: 0px;
 }
 
 .btn-transparent {
@@ -388,7 +415,7 @@ a:focus {
 }
 
 #navbar {
-  background: #222328;
+  background: #100F21;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
@@ -396,10 +423,16 @@ a:focus {
   padding-left: 15px;
 }
 
+.defi-font {
+  color: #fbe375;
+  font-family: Lora !important; 
+ 
+}
+
 #navbar .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #fbe375;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: .5px;
@@ -407,7 +440,7 @@ a:focus {
 }
 
 #navbar .nav-link:hover, #navbar .nav-link:focus {
-  color: #f75757;
+  color: #63F043;
 }
 
 #navbar .btn {
@@ -509,7 +542,7 @@ ul.dropdown-menu li {
 }
 
 .slider {
-  background: url("../images/bg/home-1.jpg") no-repeat;
+  background: url("../images/adventure-horizon-frame-lg.gif") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
@@ -517,10 +550,10 @@ ul.dropdown-menu li {
 }
 
 .slider .block h1 {
-  font-size: 70px;
+  font-size: 50px;
   line-height: 80px;
   font-weight: 600;
-  color: #fff;
+  
 }
 
 .slider .block p {
@@ -746,6 +779,7 @@ ul.dropdown-menu li {
 
 .pricing .btn-solid-border {
   border-color: #dedede;
+   
 }
 
 .pricing .btn-solid-border:Hover {

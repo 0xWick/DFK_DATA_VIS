@@ -84,7 +84,12 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 /* Utility Classes */
 
 .align-center{
-  align-items: center;
+  /* align-items: center;  */
+  vertical-align: middle;
+}
+
+.text-center{
+  text-align: center; 
 }
 
 .Dark-color{
@@ -135,9 +140,12 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   color: #fff;
 }
 
+
+
 .defi-kingdoms-logo{
   background-position: left;
-  margin-left: -70px
+  margin-left: -70px;
+ 
 }
 
 .btn-primary {
@@ -353,8 +361,13 @@ a:focus {
 }
 
 .content-title {
-  font-size: 40px;
-  line-height: 50px;
+ 
+  font-size: 60px;
+  line-height: 70px;
+  color: #fbe375;
+  font-weight: 400 !important;
+  font-family: Lora !important; 
+  
 }
 
 .page-title {
@@ -747,13 +760,13 @@ ul.dropdown-menu li {
 }
 
 .cta {
-  background: url("../images/bg/home-3.jpg") fixed 50% 50%;
+  background: url("../images/docsgraphic.png") fixed 50% 50%;
   background-size: cover;
   padding: 120px 0px;
 }
 
 .cta-block {
-  background: url("../images/bg/home-3.jpg") no-repeat;
+  background: url("../images/docsgraphic.png") no-repeat;
   background-size: cover;
 }
 
@@ -1365,6 +1378,9 @@ h3.quote::before {
   .slider {
     padding: 126px 0 151px 0;
   }
+
+
+
   .content-title {
     font-size: 28px;
     line-height: 46px;
@@ -1540,7 +1556,8 @@ h3.quote::before {
 	 border-top-right-radius: 14px;
 }
  .clash-card__image--barbarian {
-	 background-color: black;
+
+	 background-color: #11102b;
    margin-bottom: 20px;
 }
 
@@ -1718,10 +1735,31 @@ h3.quote::before {
 
 }
 
-.flex-wrap-2 .item3 img{
-  vertical-align: center;
+
+
+.flex-wrap-2 .item1 {
+  margin-top: 40px;
+}
+
+.flex-wrap-2 .item2 {
+  margin-top: 40px;
+}
+
+.flex-wrap-2 .item3 {
+  display: flex;
+  align-items: center;
+}
+.flex-wrap-2 .item3 img {
+ height: auto;
 }
 
 .flex-wrap-2 .item1 ul li {
   color: white;
 }
+
+
+.serandale
+  {
+      background-color:  #100F21;
+     
+  }

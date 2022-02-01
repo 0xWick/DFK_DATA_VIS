@@ -362,7 +362,10 @@ a:focus {
 }
 
 .content-title {
- 
+
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: solid;
   font-size: 60px;
   line-height: 70px;
   color: #fbe375;
@@ -1763,12 +1766,55 @@ h3.quote::before {
 /* ------------# Serendale------------- */
 .serandale
 {
+  border: 2px solid red;
+  border-radius: 5px;
       background-color:  #100F21;
     border: #00d747 5px;
     padding-bottom: 40px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     }
 
+
+    .crystlevale 
+    {
+      /* background: url("../images/crystlevale.gif") no-repeat; */
+      display: flex;
+      background-repeat: no-repeat;
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      filter: #100F21 !important;
+      background-color: #100F21;
+      /* height: 50% */
+      /* width: 800px; */
+    }
+
+    .roadmap {
+      
+      background-repeat: no-repeat;
+      width: 60%;
+      align-content: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #100F21;
+    }
+
+    .wrap
+    {
+      padding-top: 10px;
+      background-color: #100F21;
+    }
+
+    .holder{
+      background-color: white;
+    }
+/* 
+    .crystlevale-overlay
+    {
+      background-color: #000
+    } */
 
 /* ---------Cards Styling---------- */
 
@@ -1904,4 +1950,76 @@ h3.quote::before {
 
 #Serandale-cards .flex-wrap-3 .card-container{
   flex-basis: 20%;
+}
+
+
+
+
+
+
+
+
+/* The Code of the Wallets  */
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+.l-bg-cherry {
+  background: linear-gradient(to right, #493240, #f09) !important;
+  color: #fff;
+}
+
+.l-bg-blue-dark {
+  background: linear-gradient(to right, #373b44, #4286f4) !important;
+  color: #fff;
+}
+
+.l-bg-green-dark {
+  background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+  color: #fff;
+}
+
+.l-bg-orange-dark {
+  background: linear-gradient(to right, #a86008, #ffba56) !important;
+  color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+  font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+  text-align: center;
+  line-height: 50px;
+  margin-left: 15px;
+  color: #000;
+  position: absolute;
+  right: -5px;
+  top: 20px;
+  opacity: 0.1;
+}
+
+.l-bg-cyan {
+  background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+  color: #fff;
+}
+
+.l-bg-green {
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+  color: #fff;
+}
+
+.l-bg-orange {
+  background: linear-gradient(to right, #f9900e, #ffba56) !important;
+  color: #fff;
+}
+
+.l-bg-cyan {
+  background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+  color: #fff;
 }

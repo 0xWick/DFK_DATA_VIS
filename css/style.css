@@ -1549,7 +1549,7 @@ h3.quote::before {
 	 position: relative;
 	 text-align: center;
 	 box-shadow: -1px 15px 30px -12px black;
-	 z-index: 9999;
+	 z-index: 0;
 }
  .clash-card__image {
 	 position: relative;
@@ -1737,8 +1737,6 @@ h3.quote::before {
   text-align: center ;
 
 }
-
-
 
 .flex-wrap-2 .item1 {
   margin-top: 40px;

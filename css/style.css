@@ -1873,13 +1873,15 @@ h3.quote::before {
 
 .card-container .card .box .content h3 {
   color: #fbe375;
-  font-weight: 400 !important;
-  font-family: Lora !important; 
+  font-weight: 600 !important;
+  font-family: Poppins !important; 
+  font-size: 2rem !important;
 }
 
 .card-container .card .box .content p {
   font-weight: 600 !important;
   font-family: Poppins !important; 
+  
 }
 
 

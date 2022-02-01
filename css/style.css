@@ -57,7 +57,8 @@ p {
   background: #f75757;
 }
 
-input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
+
+/* input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
   box-shadow: none;
   height: 45px;
   outline: none;
@@ -77,7 +78,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .form-control:focus {
   box-shadow: none;
   border: 1px solid #f75757;
-}
+} */
 
 
 
@@ -531,7 +532,7 @@ a:focus {
   color: #f75757;
 }
 
-.dropdown-menu {
+/* .dropdown-menu {
   visibility: hidden;
   filter: alpha(opacity=0);
   opacity: 0;
@@ -571,7 +572,9 @@ a:focus {
 
 ul.dropdown-menu li {
   padding-left: 0px !important;
-}
+} */
+
+
 
 .bg-1 {
   background: url("../images/bg/home-2.jpg") no-repeat 50% 50%;
@@ -1763,7 +1766,11 @@ h3.quote::before {
 .serandale
 {
       background-color:  #100F21;
-}
+    border: #00d747 5px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    }
+
 
 /* ---------Cards Styling---------- */
 
@@ -1880,6 +1887,10 @@ h3.quote::before {
 
 /* -----------Flex-Box for Serendale Cards------------- */
 
+
+#Serandale-cards {
+  background-color: #000;
+}
 #Serandale-cards .flex-wrap-3 {
   display: flex;
   

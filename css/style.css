@@ -1763,9 +1763,9 @@ h3.quote::before {
 /* ------------# Serendale------------- */
 .serandale
 {
-      background-color:  #100F21;
+    background-color:  #100F21;
     border: #00d747 5px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     margin-top: 50px;
     }
 
@@ -1871,15 +1871,15 @@ h3.quote::before {
   color: black;
 }
 
-/* Background Image */
-.card-container .card .box{
-  background: linear-gradient(0deg, #090813, rgba(30, 21, 100, 0.226)), url(./Bank.png);
-  background-repeat:no-repeat;
-  background-size: cover;
+.card-container .card .box .content h3 {
+  color: #fbe375;
+  font-weight: 400 !important;
+  font-family: Lora !important; 
 }
 
-.card-container .card .box img {
-  opacity: 0.2;
+.card-container .card .box .content p {
+  font-weight: 600 !important;
+  font-family: Poppins !important; 
 }
 
 
@@ -1896,12 +1896,45 @@ h3.quote::before {
   flex-wrap: wrap;
 
   justify-content: center;
-  align-items: center;
-  align-content: center;
+
+  padding: 0px 100px;
 
   
 }
 
 #Serandale-cards .flex-wrap-3 .card-container{
-  flex-basis: 20%;
+  flex-basis: 15%;
+  
+}
+
+/* Backgrounds of Cards */
+
+
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-1 {
+  background: linear-gradient(0deg, #0a0808d2, rgba(71, 67, 25, 0.877)), center no-repeat url("../images/Card-pics/the_vault.png");
+}
+
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-2 {
+  background: linear-gradient(0deg, #3b3b3b, rgba(0, 0, 0, 0.288)), center no-repeat url("../images/Card-pics/Bank");
+}
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-3 {
+  background: linear-gradient(0deg, #222020, rgba(0, 0, 0, 0.74)), center no-repeat url("../images/Card-pics/Adoption");
+}
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-4 {
+  background: linear-gradient(0deg, #181711, rgba(70, 77, 28, 0.541)), center no-repeat url("../images/Card-pics/Tavern_1.jpg");
+}
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-5 {
+  background: linear-gradient(0deg, #130e0ece, rgba(34, 61, 16, 0.699)), center no-repeat url("../images/Card-pics/Cute_Henry.gif");
+}
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-6 {
+  background: linear-gradient(0deg, #121a10e3, rgba(28, 51, 15, 0.685)), center no-repeat url("../images/Card-pics/gardens.gif");
+}
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-7 {
+  background: linear-gradient(0deg, #201d18, rgba(54, 43, 19, 0.562)), center no-repeat url("../images/Card-pics/professions_scene_anim_Animation_1_0.png");
+}
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-8 {
+  background: linear-gradient(0deg, #4d384d, rgba(76, 27, 88, 0.068)), center no-repeat url("../images/Card-pics/mythic_gem_1.png");
+}
+#Serandale-cards .flex-wrap-3 .card-container .card .Box-Bg-9 {
+  background: linear-gradient(0deg, #524e4e, rgba(0, 0, 0, 0.418)), center no-repeat url("../images/Card-pics/mediation_circle.png");
 }

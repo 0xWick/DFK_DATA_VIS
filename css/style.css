@@ -82,26 +82,6 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 
 
-/* Utility Classes */
-
-.align-center{
-  /* align-items: center;  */
-  vertical-align: middle;
-}
-
-.text-center{
-  text-align: center; 
-}
-
-.Dark-color{
-  background-color: #100F21;
-}
-
-.Golden-color{
-  color: #fbe375
-}
-
-
 
 .py-7 {
   padding: 7rem 0px;
@@ -2084,4 +2064,45 @@ h3.quote::before {
 .l-bg-cyan {
   background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
   color: #fff;
+}
+
+
+
+
+/* Utility Classes */
+
+.align-center{
+  /* align-items: center;  */
+  vertical-align: middle;
+}
+
+.text-center{
+  text-align: center; 
+}
+
+.Dark-color{
+  background-color: #100F21;
+}
+
+.Golden-color{
+  color: #fbe375
+}
+
+.Lora-heavy {
+  font-family: Lora !important;
+  font-weight: 600 !important;
+}
+
+.Poppins-heavy {
+  font-family: Poppins !important;
+  font-weight: 600 !important;
+}
+.Lora {
+  font-family: Lora !important;
+  font-weight: 400 !important;
+}
+
+.Poppins {
+  font-family: Poppins !important;
+  font-weight: 400 !important;
 }

@@ -142,6 +142,16 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   color: #100F21;
     background-position: right center;
 }
+.explorer{
+  color:rgb(5, 5, 5);
+}
+
+.explorer:hover 
+{
+color: white;
+   margin-top: -5px;
+  border-radius: 2px;
+}
 
 .btn:hover{
   top: -5px
@@ -1306,7 +1316,15 @@ h3.quote::before {
 .lh-35 {
   line-height: 35px;
 }
+.dfk-token
+{margin-bottom: -10px;}
 
+.dfk-community
+{margin-bottom: -10px;}
+
+.bg-darks{
+  background-color: black;
+}
 .logo {
   color: #242424;
   font-weight: 600;
@@ -1739,6 +1757,19 @@ h3.quote::before {
 
 .flex-wrap-2 .item1 ul li {
   color: white;
+}
+
+
+
+
+
+
+.table {
+  margin-bottom: -5px;
+ border: solid yellow 2px;
+/* margin: 0 10px */
+  /* margin: 10px;
+  padding:0%; */
 }
 
 

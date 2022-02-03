@@ -31,7 +31,7 @@ var sparklineData = [47, 45, 54, 38, 56, 24, 65, 31, 37, 39, 62, 51, 35, 41, 35,
 
 // the default colorPalette for this dashboard
 //var colorPalette = ['#01BFD6', '#5564BE', '#F7A600', '#EDCD24', '#F74F58'];
-var colorPalette = ['#00D8B6','#008FFB',  '#FEB019', '#FF4560', '#775DD0']
+var colorPalette = ['#00D8B6', '#008FFB', '#FEB019', '#FF4560', '#775DD0']
 
 var spark1 = {
   chart: {
@@ -53,7 +53,7 @@ var spark1 = {
     name: 'Transections',
     data: randomizeArray(sparklineData)
   }],
-  labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
+  labels: [...Array(24).keys()].map(n => `2018-09-0${n + 1}`),
   yaxis: {
     min: 0
   },
@@ -99,7 +99,7 @@ var spark2 = {
     name: 'Balance',
     data: randomizeArray(sparklineData)
   }],
-  labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
+  labels: [...Array(24).keys()].map(n => `2018-09-0${n + 1}`),
   yaxis: {
     min: 0
   },
@@ -145,7 +145,7 @@ var spark3 = {
     name: 'Staked In Gardens',
     data: randomizeArray(sparklineData)
   }],
-  labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
+  labels: [...Array(24).keys()].map(n => `2018-09-0${n + 1}`),
   xaxis: {
     type: 'datetime',
   },
@@ -399,7 +399,10 @@ var optionsBar = {
     name: "Unlocked",
     data: [45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 100],
   }],
+
+
   labels: ["Epoch:21","Epoch:22","Epoch:23","Epoch:24","Epoch:25","Epoch:26","Epoch:27","Epoch:28","Epoch:29","Epoch:30","Epoch:31","Epoch:32","Epoch:33","Epoch:34","Epoch:35","Epoch:36","Epoch:37","Epoch:38","Epoch:39","Epoch:40","Epoch:41","Epoch:42","Epoch:43","Epoch:44","Epoch:45","Epoch:46","Epoch:47","Epoch:48","Epoch:49"],
+
   xaxis: {
     labels: {
       show: false
@@ -440,9 +443,9 @@ chartBar.render();
 
 var optionDonut = {
   chart: {
-      type: 'donut',
-      width: '100%',
-      height: 400
+    type: 'donut',
+    width: '100%',
+    height: 400
   },
   dataLabels: {
     enabled: false,
@@ -484,7 +487,7 @@ donut.render();
 function trigoSeries(cnt, strength) {
   var data = [];
   for (var i = 0; i < cnt; i++) {
-      data.push((Math.sin(i / strength) * (i / strength) + i / strength+1) * (strength*2));
+    data.push((Math.sin(i / strength) * (i / strength) + i / strength + 1) * (strength * 2));
   }
 
   return data;
@@ -587,8 +590,8 @@ chartLine.render().then(function () {
 
 
 // on smaller screen, change the legends position for donut
-var mobileDonut = function() {
-  if($(window).width() < 768) {
+var mobileDonut = function () {
+  if ($(window).width() < 768) {
     donut.updateOptions({
       plotOptions: {
         pie: {
@@ -613,7 +616,3 @@ var mobileDonut = function() {
     }, false, false)
   }
 }
-
-$(window).resize(function() {
-  mobileDonut()
-});

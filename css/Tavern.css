@@ -1,0 +1,13 @@
+.Tavern-chart-wrapper{
+    display: flex;
+
+    flex-wrap: wrap;
+
+
+}
+
+
+.Tavern-chart-item {
+    flex-basis: 50%;
+}
+

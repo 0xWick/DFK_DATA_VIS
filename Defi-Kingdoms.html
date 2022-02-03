@@ -84,27 +84,59 @@
     <section class="info-title Dark-color">
         <h2 class=" content-title text-center">Historical Data</h2>
 
-        <div class="flex-wrap-charts">
-            <div class="chart">
-                <button type="button"
-                    class="btn mb-2 mb-md-0 py-3 px-4 btn-primary lora-heavy White-color">Price</button>
-                <!-- Chart -->
-            </div>
-            <div class="chart">
-                <button type="button" class="btn mb-2 mb-md-0 py-3 px-4 btn-primary lora-heavy White-color btn-lg">Total
-                    Value
-                    Locked</button>
-                <!-- Chart -->
-            </div>
-            <div class="chart">
-                <button type="button" class="btn mb-2 mb-md-0 py-3 px-4 btn-primary lora-heavy White-color">Market
-                    Cap</button>
-                <!-- Chart -->
-            </div>
-            <div class="chart">
-                <button type="button"
-                    class="btn mb-2 mb-md-0 py-3 px-4 btn-primary lora-heavy White-color">Supply</button>
-                <!-- Chart -->
+
+    </section>
+    <section class="bg-whites">
+        <div id="wrapper">
+            <div class="content-area">
+                <div class="container-fluid">
+
+                    <div class="main">
+                        <div class="row sparkboxes mt-4 mb-4">
+                            <div class="col-md-4">
+                                <div class="box box1">
+                                    <div id="spark1"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box box2">
+                                    <div id="spark2"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box box3">
+                                    <div id="spark3"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 mb-4">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div id="bar"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div id="donut"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 mb-4">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div id="area"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div id="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -165,13 +197,21 @@
     <script src="plugins/counterup/jquery.waypoints.min.js"></script>
     <script src="plugins/counterup/jquery.counterup.min.js"></script>
 
+    <!-- Apex Chart JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <!-- Google Map -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="plugins/google-map/map.js"></script>
+
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
 
     <script src="js/script.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+    <script src="assets/js/apexcharts.js"></script>
+    <script src="assets/data.js"></script>
+    <script src="assets/scripts.js"></script>
 </body>
 
 </html>

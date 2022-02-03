@@ -31,7 +31,7 @@ var sparklineData = [47, 45, 54, 38, 56, 24, 65, 31, 37, 39, 62, 51, 35, 41, 35,
 
 // the default colorPalette for this dashboard
 //var colorPalette = ['#01BFD6', '#5564BE', '#F7A600', '#EDCD24', '#F74F58'];
-var colorPalette = ['#00D8B6','#008FFB',  '#FEB019', '#FF4560', '#775DD0']
+var colorPalette = ['#00D8B6', '#008FFB', '#FEB019', '#FF4560', '#775DD0']
 
 var spark1 = {
   chart: {
@@ -53,7 +53,7 @@ var spark1 = {
     name: 'Sales',
     data: randomizeArray(sparklineData)
   }],
-  labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
+  labels: [...Array(24).keys()].map(n => `2018-09-0${n + 1}`),
   yaxis: {
     min: 0
   },
@@ -99,7 +99,7 @@ var spark2 = {
     name: 'Expenses',
     data: randomizeArray(sparklineData)
   }],
-  labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
+  labels: [...Array(24).keys()].map(n => `2018-09-0${n + 1}`),
   yaxis: {
     min: 0
   },
@@ -145,7 +145,7 @@ var spark3 = {
     name: 'Profits',
     data: randomizeArray(sparklineData)
   }],
-  labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
+  labels: [...Array(24).keys()].map(n => `2018-09-0${n + 1}`),
   xaxis: {
     type: 'datetime',
   },
@@ -399,7 +399,7 @@ var optionsBar = {
     name: "Food Products",
     data: [6, 12, 4, 7, 5, 3, 6, 4, 3, 3, 5, 6, 7, 4],
   }],
-  labels: [10,11,12,13,14,15,16,17,18,19,20,21,22,23],
+  labels: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
   xaxis: {
     labels: {
       show: false
@@ -440,9 +440,9 @@ chartBar.render();
 
 var optionDonut = {
   chart: {
-      type: 'donut',
-      width: '100%',
-      height: 400
+    type: 'donut',
+    width: '100%',
+    height: 400
   },
   dataLabels: {
     enabled: false,
@@ -484,7 +484,7 @@ donut.render();
 function trigoSeries(cnt, strength) {
   var data = [];
   for (var i = 0; i < cnt; i++) {
-      data.push((Math.sin(i / strength) * (i / strength) + i / strength+1) * (strength*2));
+    data.push((Math.sin(i / strength) * (i / strength) + i / strength + 1) * (strength * 2));
   }
 
   return data;
@@ -587,8 +587,8 @@ chartLine.render().then(function () {
 
 
 // on smaller screen, change the legends position for donut
-var mobileDonut = function() {
-  if($(window).width() < 768) {
+var mobileDonut = function () {
+  if ($(window).width() < 768) {
     donut.updateOptions({
       plotOptions: {
         pie: {
@@ -613,7 +613,3 @@ var mobileDonut = function() {
     }, false, false)
   }
 }
-
-$(window).resize(function() {
-  mobileDonut()
-});

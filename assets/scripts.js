@@ -50,7 +50,7 @@ var spark1 = {
     opacity: 1,
   },
   series: [{
-    name: 'Sales',
+    name: 'Transections',
     data: randomizeArray(sparklineData)
   }],
   labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
@@ -60,9 +60,9 @@ var spark1 = {
   xaxis: {
     type: 'datetime',
   },
-  colors: ['#DCE6EC'],
+  colors: ['#04a6cf'],
   title: {
-    text: '$424,652',
+    text: '$8,343,688',
     offsetX: 30,
     style: {
       fontSize: '24px',
@@ -70,7 +70,7 @@ var spark1 = {
     }
   },
   subtitle: {
-    text: 'Sales',
+    text: 'Transactions',
     offsetX: 30,
     style: {
       fontSize: '14px',
@@ -96,7 +96,7 @@ var spark2 = {
     opacity: 1,
   },
   series: [{
-    name: 'Expenses',
+    name: 'Balance',
     data: randomizeArray(sparklineData)
   }],
   labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
@@ -106,9 +106,9 @@ var spark2 = {
   xaxis: {
     type: 'datetime',
   },
-  colors: ['#DCE6EC'],
+  colors: ['#04cf30'],
   title: {
-    text: '$235,312',
+    text: '$1,975,657,315',
     offsetX: 30,
     style: {
       fontSize: '24px',
@@ -116,7 +116,7 @@ var spark2 = {
     }
   },
   subtitle: {
-    text: 'Expenses',
+    text: 'Balance',
     offsetX: 30,
     style: {
       fontSize: '14px',
@@ -142,7 +142,7 @@ var spark3 = {
     opacity: 1,
   },
   series: [{
-    name: 'Profits',
+    name: 'Staked In Gardens',
     data: randomizeArray(sparklineData)
   }],
   labels: [...Array(24).keys()].map(n => `2018-09-0${n+1}`),
@@ -155,7 +155,7 @@ var spark3 = {
   colors: ['#008FFB'],
   //colors: ['#5564BE'],
   title: {
-    text: '$135,965',
+    text: '$506,938,270',
     offsetX: 30,
     style: {
       fontSize: '24px',
@@ -163,7 +163,7 @@ var spark3 = {
     }
   },
   subtitle: {
-    text: 'Profits',
+    text: 'Staked In Gardens',
     offsetX: 30,
     style: {
       fontSize: '14px',
@@ -393,13 +393,13 @@ var optionsBar = {
   },
   colors: colorPalette,
   series: [{
-    name: "Clothing",
-    data: [42, 52, 16, 55, 59, 51, 45, 32, 26, 33, 44, 51, 42, 56],
+    name: "Locked",
+    data: [55, 53, 51, 49, 47, 45, 43, 41, 39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 13, 11, 9, 7, 5, 3, 2, 1, 0],
   }, {
-    name: "Food Products",
-    data: [6, 12, 4, 7, 5, 3, 6, 4, 3, 3, 5, 6, 7, 4],
+    name: "Unlocked",
+    data: [45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 100],
   }],
-  labels: [10,11,12,13,14,15,16,17,18,19,20,21,22,23],
+  labels: ["Epoch:21","Epoch:22","Epoch:23","Epoch:24","Epoch:25","Epoch:26","Epoch:27","Epoch:28","Epoch:29","Epoch:30","Epoch:31","Epoch:32","Epoch:33","Epoch:34","Epoch:35","Epoch:36","Epoch:37","Epoch:38","Epoch:39","Epoch:40","Epoch:41","Epoch:42","Epoch:43","Epoch:44","Epoch:45","Epoch:46","Epoch:47","Epoch:48","Epoch:49"],
   xaxis: {
     labels: {
       show: false
@@ -425,7 +425,7 @@ var optionsBar = {
     }
   },
   title: {
-    text: 'Monthly Sales',
+    text: 'Locking/Unlocking Model',
     align: 'left',
     style: {
       fontSize: '18px'
@@ -461,13 +461,13 @@ var optionDonut = {
   },
   colors: colorPalette,
   title: {
-    text: 'Department Sales',
+    text: 'Top 5 pools (In $Millions)',
     style: {
       fontSize: '18px'
     }
   },
-  series: [21, 23, 19, 14, 6],
-  labels: ['Clothing', 'Food Products', 'Electronics', 'Kitchen Utility', 'Gardening'],
+  series: [154, 41, 29, 18, 16],
+  labels: ['Jewel-One', '1WBTC-1Eth', 'JEWEL-AVAX', 'JEWEL-1USDC', 'JEWEL-1ETH'],
   legend: {
     position: 'left',
     offsetY: 80

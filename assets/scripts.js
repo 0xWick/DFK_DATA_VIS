@@ -617,3 +617,20 @@ var mobileDonut = function() {
 $(window).resize(function() {
   mobileDonut()
 });
+
+// Smooth Scrolling
+
+// $('#navibar a , .btn').on('click', function (event) {
+//   if (this.hash !== '') {
+//       event.preventDefault();
+
+//       const hash = this.hash;
+
+//       $('html, body',).animate(
+//           {
+//               scrollTop: $(hash).offset().top - 100
+//           },
+//           800
+//       );
+//   }
+// });

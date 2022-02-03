@@ -1324,6 +1324,12 @@ h3.quote::before {
 
 .bg-darks{
   background-color: black;
+  /* color: #009dff; */
+}
+
+
+.bg-whites{
+  background-color: white;
 }
 .logo {
   color: #242424;
@@ -1944,6 +1950,22 @@ h3.quote::before {
 
 /* -----------Flex-Box for Serendale Cards------------- */
 
+.bank-apr
+{
+  padding-top: 10px;
+  color: black;
+  /* color: #63F043; */
+  background-color: #63F043;
+  border-radius: 10px;
+}
+
+.bank-apr:hover {
+  /* position: relative;
+  margin-top: -5px; */
+  transform: 0.5s;
+  background-color: #24e5a5;
+
+}
 
 #Serandale-cards {
   background-color: #000;

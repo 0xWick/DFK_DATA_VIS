@@ -338,7 +338,7 @@ span.d-block.mb-3.text-capitalize.text-white {
 
 /* Links */
 a {
-  color: #ffffff;
+  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -1317,13 +1317,16 @@ h3.quote::before {
   line-height: 35px;
 }
 .dfk-token
-{margin-bottom: -10px;}
+{margin-bottom: -10px;
+  border: solid yellow 2px;}
 
 .dfk-community
-{margin-bottom: -10px;}
+{margin-bottom: -10px;
+border: solid yellow 2px;
+}
 
 .bg-darks{
-  background-color: black;
+  background-color: #100F21 !important;
   /* color: #009dff; */
 }
 
@@ -1348,6 +1351,7 @@ h3.quote::before {
 .flex-wrap1 .wrapper{
   margin: 0 50px;
 }
+
 
 
 
@@ -1767,7 +1771,11 @@ h3.quote::before {
 
 
 
-
+.tables
+{
+  margin-bottom: -5px;
+ border: solid yellow 2px;
+}
 
 
 .table {
